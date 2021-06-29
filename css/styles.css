@@ -224,17 +224,12 @@ img {
 
 
 
-.right {
-  position: absolute;
-left: 0px;
-
- 
+.navbar {
+  justify-content: flex-start;
 }
 
-
-.center {
-  
-right: 0px;
-align-self: center;
- 
+.navbar-header{
+  left:50%;
+  position: relative;
+  transform: translateX(-50%);
 }
