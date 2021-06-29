@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--end build -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
     <title>Document</title>
 </head>
 <body>
+  
+    <!-- <nav class ="navbar navbar-expand-xl navbar-dark ">
+        <a class ="navbar-brand" href ="#"> <img  src="img/spacex-logo-300x166.jpg"></a>
+        <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+        <span class ="navbar-toggler-icon"></span>
+        </button>
+        <div class ="collapse navbar-collapse" id ="colNav">
+        <ul class ="navbar-nav">
+        <li class ="nav-item">
+        <a class ="nav-link" href="#"> Services </a>
+        </li>
+        <li class ="nav-item">
+        <a class ="nav-link" href ="#"> About Us</a>
+        </li>
+        <li class ="nav-item">
+        <a class ="nav-link" href ="#"> Contact Us </a>
+        </li>
+        </ul>
+        </div>
+        </nav> -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
     
+    <nav class ="navbar transparent navbar-expand-xl navbar-dark ">
+        <div class="container">
+               <div class="row">
+                <div class="col-4 right"><span class="navbtn " style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span></div>
+                <div class="col-8 ">  <img  src="img/797px-SpaceX_Logo_Black.png" class="center"></div>
+              
+        </div>
+    </div>
+    </nav>
+    <video id="myVideo" autoplay muted loop>
+        <source src="video//Outer space 4k video clip (Copyright free).mp4"  type="video/mp4">
+        Your browser does not support HTML5 video.
+        </video>
+    <footer>
+
+    </footer>
+       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+       <script>
+       function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 </html>
